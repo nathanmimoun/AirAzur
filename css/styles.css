@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: center;
+  padding-top: 0.5rem;
+  background: url("../assets/fond_accueil.png");
+  background-repeat: no-repeat;
+}
+
+.carre {
+  display: inline-block;
+  width: 350px;
+  top: 5px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 17px;
+}
+
+p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  color: #288ACD;
+}
+
+h4 {
+  position: absolute !important;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: #288ACD;
+  ;
+  text-align: center;
+  font-size: 1rem;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.recherche {
+  width: 343px;
+  height: 58px;
+  background: #40ADDC;
+  border: 3px solid #FFFFFF;
+  border-radius: 29px;
+  text-align: center;
+  color: white;
+  font-size: 17px;
+}
+
+.dropdown {
+  display: none;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.texte-a {
+  text-decoration: none;
+  color: white;
+}
+
+.recherche:hover .dropdown {
+  display: flex;
+  justify-content: center;
+}
+
+.recherche:hover {
+  height: 100%;
+}
+
+.ville {
+  list-style: none;
+  justify-content: center;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  list-style: none;
+}
+ul > li {
+  display: inline-block;
+}
+
+img{
+  max-width: 250px;
+  justify-content: center;
+}

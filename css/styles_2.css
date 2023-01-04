@@ -1,0 +1,235 @@
+@charset "UTF-8";
+
+*{
+    overflow: scroll;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-left: 1.5rem;
+    background: url("../assets/fond\ 1.png");
+}
+
+.carre {
+    position: static;
+    width: 182px;
+    height: 59px;
+    left: 128px;
+    top: 48px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 17px;
+}
+
+.conseil1 {
+    position: static;
+    display: inline-block;
+    width: 323px;
+    left: 51px;
+    top: 610px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 17px;
+}
+
+.conseil2 {
+    position: static;
+    display: inline-block;
+    width: 323px;
+    left: 51px;
+    top: 690px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 17px;
+}
+
+.conseil3 {
+    position: static;
+    display: inline-block;
+    width: 323px;
+    left: 48px;
+    top: 770px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 17px;
+}
+
+.partenaires {
+    position: static;
+    display: inline-block;
+    width: 323px;
+    left: 52px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 17px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #288ACD;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #288ACD;
+    text-align: center;
+    font-size: 1rem;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(0, 0, 0, 0.56);
+}
+
+h5 {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #000000;
+    text-align: left;
+    padding-left: 40px;
+}
+
+.carre-legende {
+    position: static;
+    width: 182px;
+    max-height: 220px;
+    left: 33px;
+    top: 219px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 17px;
+    overflow: hidden;
+}
+
+.carre-aiguille {
+
+    position: static;
+    width: 162px;
+    left: 232px;
+    top: 219px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 17px;
+}
+
+#bulb {
+    width: 67px;
+}
+
+#cloud {
+    max-width: 250px;
+    justify-content: center;
+  }
+
+
+.atmosud,
+.regionsud {
+    min-width: 110px;
+    width: 113px;
+    height: 78px;
+}
+
+#col {
+    column-count: 2;
+}
+
+.rond1 {
+    position: relative;
+    width: 14px;
+    height: 14px;
+    left: 17px;
+    top: -199px;
+    border-radius: 100%;
+    background: rgba(205, 205, 205, 0.57);
+}
+
+.rond2 {
+    position: relative;
+    width: 14px;
+    height: 14px;
+    left: 17px;
+    top: -190px;
+    border-radius: 100%;
+    background: #A7DEEE;
+}
+
+.rond3 {
+    position: relative;
+    width: 14px;
+    height: 14px;
+    left: 17px;
+    top: -181px;
+    border-radius: 100%;
+    background: rgba(82, 201, 122, 0.85);
+}
+
+.rond4 {
+    position: relative;
+    width: 14px;
+    height: 14px;
+    left: 17px;
+    top: -172px;
+    border-radius: 100%;
+    background: rgba(255, 226, 124, 0.9);
+}
+
+.rond5 {
+    position: relative;
+    width: 14px;
+    height: 14px;
+    left: 17px;
+    top: -163px;
+    border-radius: 100%;
+    background: rgba(255, 33, 33, 0.57);
+}
+
+.rond6 {
+    position: relative;
+    width: 14px;
+    height: 14px;
+    left: 17px;
+    top: -154px;
+    border-radius: 100%;
+    background: rgba(201, 74, 135, 0.85);
+}
+
+.rond7 {
+    position: relative;
+    width: 14px;
+    height: 14px;
+    left: 17px;
+    top: -145px;
+    border-radius: 100%;
+    background: #7E2776;
+}
+
+.rond8 {
+    position: relative;
+    width: 14px;
+    height: 14px;
+    left: 17px;
+    top: -136px;
+    border-radius: 100%;
+    background: rgba(0, 0, 0, 0.54);
+}
+
+#idee{
+    display: block;
+}
+
+button{
+    border-radius: 15%;
+    background-color: rgba(0, 0, 0, 0);
+    border-color: #A7DEEE;
+    color: white;
+}
